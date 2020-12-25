@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.98c7771d.chunk.css",
+    "main.js": "/static/js/main.4fd386b8.chunk.js",
+    "main.js.map": "/static/js/main.4fd386b8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d115d756.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d115d756.js.map",
+    "static/js/2.965f029f.chunk.js": "/static/js/2.965f029f.chunk.js",
+    "static/js/2.965f029f.chunk.js.map": "/static/js/2.965f029f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.98c7771d.chunk.css.map": "/static/css/main.98c7771d.chunk.css.map",
+    "static/js/2.965f029f.chunk.js.LICENSE.txt": "/static/js/2.965f029f.chunk.js.LICENSE.txt",
+    "static/media/Groupe.32630b80.svg": "/static/media/Groupe.32630b80.svg",
+    "static/media/Home.b921646e.svg": "/static/media/Home.b921646e.svg",
+    "static/media/Marketplas.56ce9b19.svg": "/static/media/Marketplas.56ce9b19.svg",
+    "static/media/Watch.bf0a5884.svg": "/static/media/Watch.bf0a5884.svg",
+    "static/media/fb-logo.6b3acce1.png": "/static/media/fb-logo.6b3acce1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d115d756.js",
+    "static/js/2.965f029f.chunk.js",
+    "static/css/main.98c7771d.chunk.css",
+    "static/js/main.4fd386b8.chunk.js"
+  ]
+}
