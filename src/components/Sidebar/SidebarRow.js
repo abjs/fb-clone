@@ -10,7 +10,7 @@ export default function SidebarRow({
 
     return (
         <div className="SidebarRow">
-            {src && <Avatar src={src}/>}
+            {src && <Avatar  src={src}/>}
             {Icon && <Icon/>}
             {img && <img src={img} alt="Images"/>}
             <h4 className="title">{title}</h4>           
