@@ -54,10 +54,6 @@ function Header() {
                     <Image image={Stor}/>
                 </div>
                 <div className="header_options">
-                    {/* <SupervisedUserCircleIcon fontSize="large"/> */}
-                    <Image image={Stor}/>
-                </div>
-                <div className="header_options">
                 <Image image={Groupe}/>
                 </div>
             </div>

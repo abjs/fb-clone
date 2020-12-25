@@ -13,7 +13,7 @@ export default function SidebarRow({
             {src && <Avatar src={src}/>}
             {Icon && <Icon/>}
             {img && <img src={img} alt="Images"/>}
-            <h1>{title}</h1>           
+            <h4 className="title">{title}</h4>           
         </div>
     )
 }

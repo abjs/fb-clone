@@ -1,13 +1,13 @@
 import React from 'react'
 import './Sidebar.css'
 import SidebarRow from './SidebarRow'
-// import Shop from './icon/shop.svg'
 // import ClearIcon from '@material-ui/icons/Clear';
 import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
 // import Covid from './icon/covid.png'
 import PeopleIcon from '@material-ui/icons/People';
 // import Friends from './icon/Friends.png'
-import Marketplas from './icon/Marketplas.svg'   
+import StorefrontIcon from '@material-ui/icons/Storefront';
+// import Marketplas from './icon/Marketplas.svg'   
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';            
 // import Video from './icon/Video.png'
 export default function Sidebar() {
@@ -20,13 +20,15 @@ export default function Sidebar() {
         
             <SidebarRow Icon={PeopleIcon} title="Friends"/>
             {/* <SidebarRow img={Friends} title="Friends"/> */}
-            {/* <SidebarRow img={Shop} title="Groups"/> */}
-            <SidebarRow img={Marketplas} title="Marketplace"/>
+           
+
+            {/* <SidebarRow img={Marketplas} title="Marketplace"/> */}
+            <SidebarRow Icon={StorefrontIcon} title="Marketplace"/>
             
+
+            {/* <SidebarRow img={Video} title="Video"/> */}
             <SidebarRow Icon={VideoLibraryIcon} title="Video"/>
 
-            {/* <SidebarRow title="Test cross" Icon={ClearIcon} /> */}
-            {/* <SidebarRow img={Video} title="Video"/> */}
         </div>
     )
 }
