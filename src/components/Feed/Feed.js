@@ -2,12 +2,27 @@ import React from 'react'
 import './Feed.css'
 import Story from './Story/Story'
 import Message from './Message/Message'
-export default function Feed({userName,userImg,bgImage}) {
+import Post from './Post/Post'
+const xmus = "https://assets.website-files.com/5d3536a932a8017e41fd14b4/5f06be05119b0a505a47d541_codeorg2019_social.png"
+export default function Feed({ userName, userImg, bgImage }) {
+    // var d = new Date();
+    // var n = d.toTimeString();
     return (
         <div className="Feed">
             {/* Story */}
-            <Story title={userName} bgImage={bgImage} userImg={userImg}  />
-            <Message userImg={userImg}/>
+            <Story title={userName} bgImage={bgImage} userImg={userImg} />
+            <Message userImg={userImg} />
+            <Post
+                userName="Abin"
+                userImg={userImg}
+                message="God is Love god is ausame"
+                timestamp="Abin"
+                PostImage={xmus}
+            />
+            <Post
+                userName={userName} userImg={userImg} timestamp="" message="God is Love"
+            />
+
             {/* Message */}
         </div>
     )

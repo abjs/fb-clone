@@ -26,7 +26,7 @@ import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
 // import Notifiction from './icon/Notifiction.svg';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import './Header.css'
-function Header() {
+function Header({userImg ,userName}) {
     return (
         <div className="header">
             <div className="header_left">
@@ -59,8 +59,8 @@ function Header() {
             </div>
             <div className="header_right">
                 <div className="header_info">
-                    <Avatar/>
-                    <h4>itsmeabjs</h4>
+                    <Avatar src={userImg}/>
+                    <h4>{userName}</h4>
                 </div>
                 <IconButton>
                     <AddIcon/>
