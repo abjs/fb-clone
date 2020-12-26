@@ -8,13 +8,15 @@ import PeopleIcon from '@material-ui/icons/People';
 // import Friends from './icon/Friends.png'
 import StorefrontIcon from '@material-ui/icons/Storefront';
 // import Marketplas from './icon/Marketplas.svg'   
-import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';            
+import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';  
+import {useStateValue} from '../Login/helpers/Provider'
 // import Video from './icon/Video.png'
 export default function Sidebar({userName,userImg}) {
+    const [{ user }] = useStateValue();
     return (
         <div className="Sidebar" >
-       <SidebarRow src ={userImg}
-            title={userName}/>
+       <SidebarRow src ={user.photoURL}
+            title={user.displayName}/>
             <SidebarRow Icon={LocalHospitalIcon} title="COVID-19 Information Centre"/>
             {/* <SidebarRow img={Covid} title="CO
 

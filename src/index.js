@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { StatePrivider } from './components/Login/helpers/StatePrivider'
-import reducer, { initialState } from './components/Login/helpers/Reducer'
+import { Provider } from './components/Login/helpers/Provider.js'
+import reducer, { initialState } from './components/Login/helpers/reducer'
 ReactDOM.render(
     <React.StrictMode>
-    <StatePrivider initialState={initialState} reducer={reducer}>
+        <Provider initialState={initialState} reducer={reducer}>
             <App />
-        </StatePrivider>
+        </Provider>
     </React.StrictMode>,
     document.getElementById('root')
 );
