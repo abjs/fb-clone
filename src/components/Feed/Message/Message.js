@@ -4,14 +4,28 @@ import { Avatar } from '@material-ui/core';
 import VideocamIcon from '@material-ui/icons/Videocam';
 import PhotoLibraryIcon from '@material-ui/icons/PhotoLibrary';
 import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
+import db from '../../helper/firebase'
+import firebase from 'firebase'
+import {useStateValue} from '../../Login/helpers/Provider'
 export default function Message({ userName = "", userImg }) {
+    const [{ user }] = useStateValue();
     const [input, setInput] = useState("");
     const [imageUrl, setImageUrl] = useState("")
     const Message_onSubmit = (e) => {
         e.preventDefault();
+
+        db.collection('posts').add({
+            message: input,
+            timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+            userImg: user.photoURL,
+            userName: user.displayName,
+            image: imageUrl
+        })
+
         setInput("")
         setImageUrl("")
         //data base uplode
+
     };
     return (
         <div className="Message">

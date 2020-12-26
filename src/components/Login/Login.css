@@ -4,14 +4,8 @@
     height: 100vh
 }
 .img1{
-
     object-fit: contain;
-    height: 170px;
-}
-.img2{
-    object-fit: contain;
-    height: 30px;
-    margin-top:50px;
+    height: 400px;
 }
 .login > button{
     width:300px;

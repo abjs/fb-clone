@@ -1,5 +1,7 @@
 import React from 'react'
-import logo from './images/icon/fb-logo.png';
+// import logo from './images/icon/fb-logo.png';
+import logo from './images/icon/logo.jpg'
+
 // import logo from './icon/fb.svg';
 // "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
 import SearchIcon from '@material-ui/icons/Search';
@@ -31,6 +33,7 @@ function Header() {
     const [{ user }] = useStateValue();
     return (
         <div className="header">
+             <title>Home</title>
             <div className="header_left">
                 <img src={logo}
                     alt="logo"/>

@@ -7,6 +7,8 @@ import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import React from 'react'
 import './Post.css'
 export default function Post({userName,userImg,PostImage,timestamp,message}) {
+    // console.log(timestamp )
+    const Time=Date(timestamp?.toDate()); 
     return (
         <div className="post">
            <div className="post__top">
@@ -14,7 +16,7 @@ export default function Post({userName,userImg,PostImage,timestamp,message}) {
                 className="post__avatar"/>
                 <div className="post__topInfo">
                     <h3>{userName}</h3>
-                    <p>Timestamp....</p>
+                    <p>{Time}</p>
                 </div>
            </div>
            <div className="post__bottom">
