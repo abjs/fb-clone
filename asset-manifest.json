@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fb-clone/static/css/main.aeb353b0.chunk.css",
-    "main.js": "/fb-clone/static/js/main.c3afaf4b.chunk.js",
-    "main.js.map": "/fb-clone/static/js/main.c3afaf4b.chunk.js.map",
+    "main.js": "/fb-clone/static/js/main.728014c9.chunk.js",
+    "main.js.map": "/fb-clone/static/js/main.728014c9.chunk.js.map",
     "runtime-main.js": "/fb-clone/static/js/runtime-main.e8a86dfd.js",
     "runtime-main.js.map": "/fb-clone/static/js/runtime-main.e8a86dfd.js.map",
-    "static/js/2.d5a5bae3.chunk.js": "/fb-clone/static/js/2.d5a5bae3.chunk.js",
-    "static/js/2.d5a5bae3.chunk.js.map": "/fb-clone/static/js/2.d5a5bae3.chunk.js.map",
+    "static/js/2.da54120d.chunk.js": "/fb-clone/static/js/2.da54120d.chunk.js",
+    "static/js/2.da54120d.chunk.js.map": "/fb-clone/static/js/2.da54120d.chunk.js.map",
     "index.html": "/fb-clone/index.html",
     "static/css/main.aeb353b0.chunk.css.map": "/fb-clone/static/css/main.aeb353b0.chunk.css.map",
-    "static/js/2.d5a5bae3.chunk.js.LICENSE.txt": "/fb-clone/static/js/2.d5a5bae3.chunk.js.LICENSE.txt",
+    "static/js/2.da54120d.chunk.js.LICENSE.txt": "/fb-clone/static/js/2.da54120d.chunk.js.LICENSE.txt",
     "static/media/Groupe.32630b80.svg": "/fb-clone/static/media/Groupe.32630b80.svg",
     "static/media/Home.b921646e.svg": "/fb-clone/static/media/Home.b921646e.svg",
     "static/media/Marketplas.56ce9b19.svg": "/fb-clone/static/media/Marketplas.56ce9b19.svg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e8a86dfd.js",
-    "static/js/2.d5a5bae3.chunk.js",
+    "static/js/2.da54120d.chunk.js",
     "static/css/main.aeb353b0.chunk.css",
-    "static/js/main.c3afaf4b.chunk.js"
+    "static/js/main.728014c9.chunk.js"
   ]
 }
