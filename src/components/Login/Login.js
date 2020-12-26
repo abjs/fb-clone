@@ -4,20 +4,24 @@ import txtLogo from './icon/fb-text-logo.png'
 import { Button } from '@material-ui/core';
 import './Login.css'
 import {auth,googleAuth} from './helpers/firebase.js'
-
+import {actionTypes} from './helpers/Reducer'
+import { useStateValue } from './helpers/StatePrivider'
 export default function Login() {
+    const [state,dispatch] = useStateValue();
+
     const signInGoogle = () => {
        auth.signInWithPopup(googleAuth)
-       .then(r=>console.log(r))
+       .then((result)=>{        
+        dispatch({
+            type: actionTypes.SET_USER,
+            user: result.user,
+        })
+       
+       })
+        
        .catch(err=>alert(err.message))
-
+       
     }
-    // const signInEmail= () => {
-    //     auth.signInWithPopup(email)
-    //     .then(r=>console.log(r))
-    //     .catch(err=>alert(err.message))
- 
-    //  }
     return (
         <div className="login">
             <div className="login_log">

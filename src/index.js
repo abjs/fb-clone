@@ -1,18 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Route, Switch, HashRouter as Router} from 'react-router-dom'
+import './index.css';
 import App from './App';
-const routing = (
-    <Router>
- 
-        <Switch>
-            <Route exact path="/" component ={App}/>
-            <Route path="/home" component ={App}/>
-        </Switch>
-
-    </Router>
-)
+import { StatePrivider } from './components/Login/helpers/StatePrivider'
+import reducer, { initialState } from './components/Login/helpers/Reducer'
 ReactDOM.render(
-    routing,
+    <React.StrictMode>
+    <StatePrivider initialState={initialState} reducer={reducer}>
+            <App />
+        </StatePrivider>
+    </React.StrictMode>,
     document.getElementById('root')
 );
