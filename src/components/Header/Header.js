@@ -33,7 +33,6 @@ function Header() {
     const [{ user }] = useStateValue();
     return (
         <div className="header">
-             <title>Home</title>
             <div className="header_left">
                 <img src={logo}
                     alt="logo"/>

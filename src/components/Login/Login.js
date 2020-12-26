@@ -1,8 +1,8 @@
 import React from 'react';
 import { auth, googleAuth } from '../helper/firebase.js'
-// import logorouded from '../Header/images/icon/fb-logo.png'
-import newLogo from './icon/sar.jpg'
-// import txtLogo from './icon/fb-text-logo.png'
+import logorouded from '../Header/images/icon/fb-logo.png'
+// import newLogo from './icon/sar.jpg'
+import txtLogo from './icon/fb-text-logo.png'
 import { Button } from '@material-ui/core';
 import { useStateValue } from './helpers/Provider'
 import { actionTypes } from './helpers/reducer'
@@ -37,8 +37,8 @@ export default function Login() {
     return (
         <div className="login">
             <div className="login_log">
-                <img className="img1" src={newLogo} alt="Fb icons" />
-                {/* <img className="img2" src={txtLogo} alt="Fb logo" /> */}
+                <img className="img1" src={logorouded} alt="Fb icons" />
+                <img className="img2" src={txtLogo} alt="Fb logo" />
             </div>
 
             <Button type="submit" onClick={signInGoogle}> Sign In Google</Button>
