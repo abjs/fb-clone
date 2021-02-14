@@ -1,4 +1,4 @@
-name: Update App
+name: FB clone
 
 on:
   push:
