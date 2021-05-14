@@ -27,3 +27,4 @@ build
 node_modules
 build
 firebase.json
+.eslintcache
