@@ -28,3 +28,6 @@ node_modules
 build
 firebase.json
 .eslintcache
+.eslintcache
+/.firebase
+*.cache
